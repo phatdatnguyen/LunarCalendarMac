@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA416BD71E19A09700E61F2B /* CalendarConversion.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA416BD41E19A09700E61F2B /* CalendarConversion.txt */; };
+		AA416BD81E19A09700E61F2B /* LunarDate.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA416BD51E19A09700E61F2B /* LunarDate.txt */; };
+		AA416BD91E19A09700E61F2B /* SolarDate.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA416BD61E19A09700E61F2B /* SolarDate.txt */; };
+		AA416BDB1E19A0C700E61F2B /* LunarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA416BDA1E19A0C700E61F2B /* LunarDate.swift */; };
+		AA416BDD1E19A5F400E61F2B /* SolarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA416BDC1E19A5F400E61F2B /* SolarDate.swift */; };
+		AA416BDF1E19B15A00E61F2B /* CalendarConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA416BDE1E19B15A00E61F2B /* CalendarConversion.swift */; };
+		AAD0A86C1E18A5A20072A1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0A86B1E18A5A20072A1D9 /* AppDelegate.swift */; };
+		AAD0A86E1E18A5A20072A1D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0A86D1E18A5A20072A1D9 /* ViewController.swift */; };
+		AAD0A8701E18A5A20072A1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD0A86F1E18A5A20072A1D9 /* Assets.xcassets */; };
+		AAD0A8731E18A5A20072A1D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD0A8711E18A5A20072A1D9 /* Main.storyboard */; };
+		AAD0A87E1E18A5A30072A1D9 /* LunarCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0A87D1E18A5A30072A1D9 /* LunarCalendarTests.swift */; };
+		AAD0A8891E18A5A30072A1D9 /* LunarCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0A8881E18A5A30072A1D9 /* LunarCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD0A87A1E18A5A30072A1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD0A8601E18A5A10072A1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD0A8671E18A5A10072A1D9;
+			remoteInfo = LunarCalendar;
+		};
+		AAD0A8851E18A5A30072A1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD0A8601E18A5A10072A1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD0A8671E18A5A10072A1D9;
+			remoteInfo = LunarCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA416BD41E19A09700E61F2B /* CalendarConversion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CalendarConversion.txt; sourceTree = SOURCE_ROOT; };
+		AA416BD51E19A09700E61F2B /* LunarDate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LunarDate.txt; sourceTree = SOURCE_ROOT; };
+		AA416BD61E19A09700E61F2B /* SolarDate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SolarDate.txt; sourceTree = SOURCE_ROOT; };
+		AA416BDA1E19A0C700E61F2B /* LunarDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunarDate.swift; sourceTree = "<group>"; };
+		AA416BDC1E19A5F400E61F2B /* SolarDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarDate.swift; sourceTree = "<group>"; };
+		AA416BDE1E19B15A00E61F2B /* CalendarConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarConversion.swift; sourceTree = "<group>"; };
+		AAD0A8681E18A5A20072A1D9 /* LunarCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD0A86B1E18A5A20072A1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD0A86D1E18A5A20072A1D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD0A86F1E18A5A20072A1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD0A8721E18A5A20072A1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD0A8741E18A5A20072A1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD0A8791E18A5A30072A1D9 /* LunarCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD0A87D1E18A5A30072A1D9 /* LunarCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarCalendarTests.swift; sourceTree = "<group>"; };
+		AAD0A87F1E18A5A30072A1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD0A8841E18A5A30072A1D9 /* LunarCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunarCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD0A8881E18A5A30072A1D9 /* LunarCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarCalendarUITests.swift; sourceTree = "<group>"; };
+		AAD0A88A1E18A5A30072A1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD0A8651E18A5A10072A1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD0A8761E18A5A30072A1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD0A8811E18A5A30072A1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD0A85F1E18A5A10072A1D9 = {
+			isa = PBXGroup;
+			children = (
+				AAD0A86A1E18A5A20072A1D9 /* LunarCalendar */,
+				AAD0A87C1E18A5A30072A1D9 /* LunarCalendarTests */,
+				AAD0A8871E18A5A30072A1D9 /* LunarCalendarUITests */,
+				AAD0A8691E18A5A20072A1D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD0A8691E18A5A20072A1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0A8681E18A5A20072A1D9 /* LunarCalendar.app */,
+				AAD0A8791E18A5A30072A1D9 /* LunarCalendarTests.xctest */,
+				AAD0A8841E18A5A30072A1D9 /* LunarCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD0A86A1E18A5A20072A1D9 /* LunarCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0A86B1E18A5A20072A1D9 /* AppDelegate.swift */,
+				AAD0A86D1E18A5A20072A1D9 /* ViewController.swift */,
+				AA416BDA1E19A0C700E61F2B /* LunarDate.swift */,
+				AA416BD41E19A09700E61F2B /* CalendarConversion.txt */,
+				AA416BDE1E19B15A00E61F2B /* CalendarConversion.swift */,
+				AA416BD51E19A09700E61F2B /* LunarDate.txt */,
+				AA416BDC1E19A5F400E61F2B /* SolarDate.swift */,
+				AA416BD61E19A09700E61F2B /* SolarDate.txt */,
+				AAD0A86F1E18A5A20072A1D9 /* Assets.xcassets */,
+				AAD0A8711E18A5A20072A1D9 /* Main.storyboard */,
+				AAD0A8741E18A5A20072A1D9 /* Info.plist */,
+			);
+			path = LunarCalendar;
+			sourceTree = "<group>";
+		};
+		AAD0A87C1E18A5A30072A1D9 /* LunarCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0A87D1E18A5A30072A1D9 /* LunarCalendarTests.swift */,
+				AAD0A87F1E18A5A30072A1D9 /* Info.plist */,
+			);
+			path = LunarCalendarTests;
+			sourceTree = "<group>";
+		};
+		AAD0A8871E18A5A30072A1D9 /* LunarCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0A8881E18A5A30072A1D9 /* LunarCalendarUITests.swift */,
+				AAD0A88A1E18A5A30072A1D9 /* Info.plist */,
+			);
+			path = LunarCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD0A8671E18A5A10072A1D9 /* LunarCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD0A88D1E18A5A30072A1D9 /* Build configuration list for PBXNativeTarget "LunarCalendar" */;
+			buildPhases = (
+				AAD0A8641E18A5A10072A1D9 /* Sources */,
+				AAD0A8651E18A5A10072A1D9 /* Frameworks */,
+				AAD0A8661E18A5A10072A1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunarCalendar;
+			productName = LunarCalendar;
+			productReference = AAD0A8681E18A5A20072A1D9 /* LunarCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD0A8781E18A5A30072A1D9 /* LunarCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD0A8901E18A5A30072A1D9 /* Build configuration list for PBXNativeTarget "LunarCalendarTests" */;
+			buildPhases = (
+				AAD0A8751E18A5A30072A1D9 /* Sources */,
+				AAD0A8761E18A5A30072A1D9 /* Frameworks */,
+				AAD0A8771E18A5A30072A1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD0A87B1E18A5A30072A1D9 /* PBXTargetDependency */,
+			);
+			name = LunarCalendarTests;
+			productName = LunarCalendarTests;
+			productReference = AAD0A8791E18A5A30072A1D9 /* LunarCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD0A8831E18A5A30072A1D9 /* LunarCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD0A8931E18A5A30072A1D9 /* Build configuration list for PBXNativeTarget "LunarCalendarUITests" */;
+			buildPhases = (
+				AAD0A8801E18A5A30072A1D9 /* Sources */,
+				AAD0A8811E18A5A30072A1D9 /* Frameworks */,
+				AAD0A8821E18A5A30072A1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD0A8861E18A5A30072A1D9 /* PBXTargetDependency */,
+			);
+			name = LunarCalendarUITests;
+			productName = LunarCalendarUITests;
+			productReference = AAD0A8841E18A5A30072A1D9 /* LunarCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD0A8601E18A5A10072A1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dat Nguyen";
+				TargetAttributes = {
+					AAD0A8671E18A5A10072A1D9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AAD0A8781E18A5A30072A1D9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAD0A8671E18A5A10072A1D9;
+					};
+					AAD0A8831E18A5A30072A1D9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AAD0A8671E18A5A10072A1D9;
+					};
+				};
+			};
+			buildConfigurationList = AAD0A8631E18A5A10072A1D9 /* Build configuration list for PBXProject "LunarCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD0A85F1E18A5A10072A1D9;
+			productRefGroup = AAD0A8691E18A5A20072A1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD0A8671E18A5A10072A1D9 /* LunarCalendar */,
+				AAD0A8781E18A5A30072A1D9 /* LunarCalendarTests */,
+				AAD0A8831E18A5A30072A1D9 /* LunarCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD0A8661E18A5A10072A1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA416BD71E19A09700E61F2B /* CalendarConversion.txt in Resources */,
+				AAD0A8701E18A5A20072A1D9 /* Assets.xcassets in Resources */,
+				AA416BD91E19A09700E61F2B /* SolarDate.txt in Resources */,
+				AAD0A8731E18A5A20072A1D9 /* Main.storyboard in Resources */,
+				AA416BD81E19A09700E61F2B /* LunarDate.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD0A8771E18A5A30072A1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD0A8821E18A5A30072A1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD0A8641E18A5A10072A1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA416BDF1E19B15A00E61F2B /* CalendarConversion.swift in Sources */,
+				AA416BDB1E19A0C700E61F2B /* LunarDate.swift in Sources */,
+				AA416BDD1E19A5F400E61F2B /* SolarDate.swift in Sources */,
+				AAD0A86E1E18A5A20072A1D9 /* ViewController.swift in Sources */,
+				AAD0A86C1E18A5A20072A1D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD0A8751E18A5A30072A1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD0A87E1E18A5A30072A1D9 /* LunarCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD0A8801E18A5A30072A1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD0A8891E18A5A30072A1D9 /* LunarCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD0A87B1E18A5A30072A1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD0A8671E18A5A10072A1D9 /* LunarCalendar */;
+			targetProxy = AAD0A87A1E18A5A30072A1D9 /* PBXContainerItemProxy */;
+		};
+		AAD0A8861E18A5A30072A1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD0A8671E18A5A10072A1D9 /* LunarCalendar */;
+			targetProxy = AAD0A8851E18A5A30072A1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD0A8711E18A5A20072A1D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD0A8721E18A5A20072A1D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD0A88B1E18A5A30072A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD0A88C1E18A5A30072A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AAD0A88E1E18A5A30072A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DN.LunarCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AAD0A88F1E18A5A30072A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DN.LunarCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AAD0A8911E18A5A30072A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DN.LunarCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarCalendar.app/Contents/MacOS/LunarCalendar";
+			};
+			name = Debug;
+		};
+		AAD0A8921E18A5A30072A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DN.LunarCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunarCalendar.app/Contents/MacOS/LunarCalendar";
+			};
+			name = Release;
+		};
+		AAD0A8941E18A5A30072A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DN.LunarCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LunarCalendar;
+			};
+			name = Debug;
+		};
+		AAD0A8951E18A5A30072A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LunarCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DN.LunarCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LunarCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD0A8631E18A5A10072A1D9 /* Build configuration list for PBXProject "LunarCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD0A88B1E18A5A30072A1D9 /* Debug */,
+				AAD0A88C1E18A5A30072A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD0A88D1E18A5A30072A1D9 /* Build configuration list for PBXNativeTarget "LunarCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD0A88E1E18A5A30072A1D9 /* Debug */,
+				AAD0A88F1E18A5A30072A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD0A8901E18A5A30072A1D9 /* Build configuration list for PBXNativeTarget "LunarCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD0A8911E18A5A30072A1D9 /* Debug */,
+				AAD0A8921E18A5A30072A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD0A8931E18A5A30072A1D9 /* Build configuration list for PBXNativeTarget "LunarCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD0A8941E18A5A30072A1D9 /* Debug */,
+				AAD0A8951E18A5A30072A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD0A8601E18A5A10072A1D9 /* Project object */;
+}
